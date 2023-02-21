@@ -49,7 +49,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
           <Typography
             color={main}
             variant="h5"
-            fontWeight="500"
+            fontWeight="700"
             sx={{
               "&:hover": {
                 color: palette.primary.light,
@@ -59,14 +59,14 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
           >
             {name}
           </Typography>
-          <Typography color={medium} fontSize="0.75rem">
+          <Typography color={medium} fontSize="1rem">
             {subtitle}
           </Typography>
         </Box>
       </FlexBetween>
       <IconButton
         onClick={() => patchFriend()}
-        sx={{ backgroundColor: primaryLight, p: "0.6rem" }}
+        sx={{ backgroundColor: primaryLight, p: "0.89rem" }}
       >
         {isFriend ? (
           <PersonRemoveOutlined sx={{ color: primaryDark }} />
