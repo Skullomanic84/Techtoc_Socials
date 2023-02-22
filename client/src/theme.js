@@ -75,30 +75,30 @@ export const themeSettings = (mode) => {
           }),
     },
     typography: {
-      fontFamily: ["Darker Grotesque", "sans-serif"].join(","),
+      fontFamily: ["IBM Plex Sans", "sans-serif"].join(","),
       fontSize: 12,
       h1: {
-        fontFamily: ["Darker Grotesque", "sans-serif"].join(","),
+        fontFamily: ["IBM Plex Sans", "sans-serif"].join(","),
         fontSize: 40,
       },
       h2: {
-        fontFamily: ["Darker Grotesque", "sans-serif"].join(","),
+        fontFamily: ["IBM Plex Sans", "sans-serif"].join(","),
         fontSize: 32,
       },
       h3: {
-        fontFamily: ["Darker Grotesque", "sans-serif"].join(","),
+        fontFamily: ["IBM Plex Sans", "sans-serif"].join(","),
         fontSize: 24,
       },
       h4: {
-        fontFamily: ["Darker Grotesque", "sans-serif"].join(","),
+        fontFamily: ["IBM Plex Sans", "sans-serif"].join(","),
         fontSize: 20,
       },
       h5: {
-        fontFamily: ["Darker Grotesque", "sans-serif"].join(","),
+        fontFamily: ["IBM Plex Sans", "sans-serif"].join(","),
         fontSize: 16,
       },
       h6: {
-        fontFamily: ["Darker Grotesque", "sans-serif"].join(","),
+        fontFamily: ["IBM Plex Sans", "sans-serif"].join(","),
         fontSize: 14,
       },
     },
